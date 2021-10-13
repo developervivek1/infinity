@@ -228,7 +228,7 @@ border-radius: 15px 0px;
 }
 .section1
 {
-	margin-top: 2rem;
+	/* margin-top: 2rem; */
 	min-height: 90vh;
 }
 .section1 h1
@@ -908,7 +908,10 @@ footer .list-group1{
    list-style-type: none;
 }
 
-
+.card-items{
+   z-index: 9;
+   bottom: 32px;
+}
 
 @media (max-width:600px){
    .middle1{
@@ -922,6 +925,7 @@ footer .list-group1{
    .card, .card.active{
        width: 100%;
    }
+  
 
 }
 /*  */
@@ -974,9 +978,9 @@ footer .list-group1{
     width: 40px;
     height: 38px;
    }
-   .section1 {
+   /* .section1 {
     margin-top: 1rem;
-   }
+   } */
    .section1 h1 {
     font-weight: 600;
     font-size: 32px;
