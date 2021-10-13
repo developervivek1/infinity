@@ -284,42 +284,6 @@ border-radius: 15px 0px;
     z-index: 111;
 }
 
-/* .section1 .finance-div.first_child::after
-{
-   content: url(img/path5.svg);
-   position: absolute;
-   top: 98%;
-   left: 50%;
-   width: 50%;
-   z-index: 4;
-}
-.section1 .finance-div.second_child::after
-{
-   content: url(img/path4.svg);
-   position: absolute;
-   top: 98%;
-   left: 50%;
-   z-index: 4;
-}
-.section1 .finance-div.third_child::after
-{
-   content: url(img/path3.svg);
-   position: absolute;
-   top: 98%;
-   left: 50%;
-   width: 50%;
-   z-index: 4;
-}
-.section1 .finance-div.fourth_child::after
-{
-   content: url(img/path1.svg);
-   position: absolute;
-   top: 98%;
-   left: 50%;
-   width: 50%;
-   z-index: 4;
-}
- */
 .section1 .finance-div h6
 {
 	text-transform: uppercase;
@@ -496,8 +460,40 @@ border-radius: 15px 0px;
    font-weight: 800;
    max-width: 400px;
 }
-
-
+.animate_div1,.animate_div2
+{
+   display: none;
+}
+.animate_div1.active,.animate_div2.active
+{
+   display: block;
+}
+.animate_div1 
+{
+   position: relative;
+   z-index: 0;
+}
+.animate_div1 .car2
+ {
+   position: absolute;
+   top: -8px;
+   right: 11%;
+   z-index: 1;
+   animation: appear 0.5s ease-in-out;
+ } 
+@keyframes appear 
+{
+   0%
+   {
+      opacity: 0;
+      margin-top: 5px;
+   }
+   100%
+   {
+     opacity: 1;
+     margin-top: 0px;
+   }
+}
 /* here */
 .middle1 {
    justify-content: center;
@@ -541,7 +537,14 @@ border-radius: 15px 0px;
 .position-car{
    position: relative;
     bottom: 34px;
+    
   }
+  .position-car .car1
+ {
+   position: relative;
+   z-index: 4;
+ } 
+
 .move1{
   /* background-color: red; */
   position: relative;
@@ -549,18 +552,31 @@ border-radius: 15px 0px;
   animation-duration: 4s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-
 }
 
-@keyframes example {
-   0%   { left:0px; top:0px;}
-   50%  { left:30%; top:0px; animation-delay: 2s;}
-   75%  {left:55%; top:0px;}
-   100%  { left:80%; top:0px;animation-delay: 4s;}
-   100% { right:95%; top:0px;background: url('');
+@keyframes example 
+{
+   0%   
+   { 
+      left:0px; top:0px;
    }
-   100% { right:95%; top:0px;}
-  }
+   50%  
+   { 
+      left:30%; top:0px; animation-delay: 2s;
+   }
+   75%  
+   {
+      left:55%; top:0px;
+   }
+   100%  
+   { 
+      left:80%; top:0px;animation-delay: 4s;
+   }
+   100% 
+   { 
+      right:80%; top:0px;background: url();
+   }
+}
 
 
 
@@ -583,7 +599,7 @@ border-radius: 15px 0px;
 }
 .active{
    border: 0;
-   box-shadow: 0px 8px 32px #0000000F;
+   /* box-shadow: 0px 8px 32px #0000000F; */
 
 }
 .lender-card2:hover{
@@ -640,9 +656,7 @@ footer .list-group1 {
    padding-bottom: 15px;
    
 }
-.contact-card{
-   width: 50%;
-}
+
 
 
 @media (max-width:600px){
@@ -664,12 +678,6 @@ footer .list-group1 {
 
    .icon-card2{
       width: 235px;
-   }
-   .lender-card2{
-      width: 235px !important;
-   }
-   .contact-card{
-      width: 75%;
    }
   
 }
@@ -889,7 +897,6 @@ footer .list-group1{
    .card, .card.active{
        width: 100%;
    }
-
 
 }
 /*  */
