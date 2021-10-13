@@ -640,7 +640,9 @@ footer .list-group1 {
    padding-bottom: 15px;
    
 }
-
+.contact-card{
+   width: 50%;
+}
 
 
 @media (max-width:600px){
@@ -665,6 +667,9 @@ footer .list-group1 {
    }
    .lender-card2{
       width: 235px !important;
+   }
+   .contact-card{
+      width: 75%;
    }
   
 }
@@ -884,6 +889,7 @@ footer .list-group1{
    .card, .card.active{
        width: 100%;
    }
+
 
 }
 /*  */
