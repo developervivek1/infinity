@@ -557,9 +557,9 @@ border-radius: 15px 0px;
    50%  { left:30%; top:0px; animation-delay: 2s;}
    75%  {left:55%; top:0px;}
    100%  { left:80%; top:0px;animation-delay: 4s;}
-   110% { right:100%; top:0px;background: url('');
+   100% { right:95%; top:0px;background: url('');
    }
-   130% { right:120%; top:0px;}
+   100% { right:95%; top:0px;}
   }
 
 
@@ -658,6 +658,13 @@ footer .list-group1 {
       display: flex;
       justify-content: center;
       
+   }
+
+   .icon-card2{
+      width: 235px;
+   }
+   .lender-card2{
+      width: 235px !important;
    }
   
 }
