@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="card.css">
+</head>
+</head>
+<body>
+<!-- 
+  <div class="container">
+  	<div class="row">
+  		<header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+	      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+	        <img src="img/logo.png" alt="">
+	      </a>
+
+	      <ul class="nav nav-pills">
+	        <li><button>Sign Up</button></li>
+	        <li><button>Log In</button></li>
+	      </ul>
+	    </header>
+  	</div>
+  </div>
+	 -->
+  <!-- <section class="main py-4">
+  	<div class="container">
+  		<div class="row">
+  			<div class="slide">
+  				<div class="slider active">
+	  					<div class="col-md-5 col-lg-5 col-xl-5 col-12 div-left">
+			  				<h4>Mpower</h4>
+			  				<h1>Encash Earnings anytime</h1>
+			  				<p>Get empowered! Access your income anytime & use your card everywhere</p>
+			  			</div>
+			  			<div class="col-md-7 col-lg-7 col-xl-7 col-12">
+			  				<div class="img-right">
+			  				   <img src="img/paymentcard.svg" alt="">
+			  				</div>
+			  			</div>					
+  				</div>
+  				<div class="slider">
+						  <div class="col-md-5 col-lg-5 col-xl-5 col-12 div-left">
+			  				<h4>Mpower</h4>
+			  				<h1>Encash Earnings anytime</h1>
+			  				<p>Get empowered! Access your income anytime & use your card everywhere</p>
+			  			</div>
+			  			<div class="col-md-7 col-lg-7 col-xl-7 col-12">
+			  				<div class="img-right">
+			  				   <img src="img/paymentcard.svg" alt="">
+			  				</div>
+			  			</div> 
+  				</div>  
+  			</div> 
+  			  <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+  				  <div class="lend-div">
+  				  	<div class="row">
+  				  		  <div class="col-3 lend-icon">
+		  					  	<img src="img/LenderIcon.svg" alt="">
+		  					  </div>
+		  					  <div class="col">
+		  					  	<h2>Lender</h2>
+		  					  	<p>Inclusion of trusted vendors of creditworthy anchors into your portfolio. Be an OI Lender</p>
+		  					  </div>
+  				  	</div>
+  				  	<button><i class="fa fa-arrow-right"></i></button>
+            </div>
+  				</div>
+	  			<div class="col-md-8 col-lg-8 col-xl-8 col-12 left-content">
+	  					<button>Vendor</button>
+	  					<button>Anchor</button>
+	  					<button>MPower</button>
+	  			</div>
+  		</div>  
+  	</div>  
+  </section>   -->
+
+  <div class="container-flex" style="background-image: url('bg.svg');    background-size: inherit;
+  background-position-y: center;
+  background-image: url(bg.svg);
+  background-position-x: 238px;
+  background-repeat: no-repeat;">
+
+  
+    <header>
+        
+        <nav  class="container-flex navbar">
+            <div class="container">
+              <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+              <img src="src/img/logo.png" alt="logo" width="150px">
+              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <span>
+              <button type="button" class="btn btn-signin text-secondary ps-3 pe-3 me-3">SIGN UP</button>
+              <button type="button" class="btn btn-login text-white ps-3 pe-3 fw-bold">LOG IN</button>
+            </span>
+              <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <img src="src/img/logo.png" alt="logo" width="150px">
+                  
+                  
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  
+                  
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> 
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div> 
+              </div> -->
+            </div>
+          </nav>
+        
+        
+    </header>
+
+
+    <section>
+      <div class="container-flex">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          
+          <div class="carousel-inner">
+             <div class="carousel-item">
+              
+              <div class="row">
+                
+                <div class="col-md-12">
+                 <div id="hero" class="pt-5 mt-4" style="background-image: url('src/img/banner1.svg');background-size:60%;background-repeat: no-repeat;background-position: right;background-position-x: 125%;">
+                  <div class="container pb-5">
+
+                  
+                  <div class="head-title pt-5">
+                    <h3 class="mb-1">MPOWER</h3>
+                    <h1 class="display-5 mt-0">Encash Earnings <br> Anytime</h1>
+                    <p class="fs-6">Get empowered! Access your income <br> anytime & use your card everywhere</p>
+                    
+                  </div>
+
+                    <div class="pt-5 ">
+
+            <div class="row card-section">
+              <div class="col-md-12">
+                   
+                    <div class="card-items">
+    
+    
+                      <div class="card active1">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M192.1,-148.2C230,-105.8,228.6,-27,204.4,33.7C180.2,94.3,133.3,136.8,77.7,165C22.1,193.1,-42.1,206.9,-94.5,185.7C-146.9,164.5,-187.5,108.3,-201.7,46C-215.9,-16.2,-203.7,-84.5,-165.7,-127C-127.7,-169.5,-63.8,-186.3,6.6,-191.6C77.1,-196.9,154.3,-190.7,192.1,-148.2Z"></path>
+                          </svg>
+    
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                          <div class="d-flex align-items-center">
+                            <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                            <h5 class="hide2 ps-3">Lender</h5>
+                          </div>
+                          
+                        
+                          <div class="d-flex align-items-center">
+                            <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                            <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                          </div>
+                          </div>
+                        
+                          <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                          
+                          <h5 class="hide1">Lender</h5>
+                          
+                      </div>
+                      
+                      <div class="card ms-3">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M194.1,-154.4C241.7,-95.1,263.7,-14.9,242.8,47C222,108.9,158.3,152.7,93.7,177.1C29.1,201.5,-36.4,206.6,-87.6,182C-138.8,157.3,-175.7,102.9,-189.7,42.9C-203.7,-17.1,-194.9,-82.8,-159.5,-139.3C-124.1,-195.9,-62,-243.5,5.6,-247.9C73.2,-252.4,146.5,-213.8,194.1,-154.4Z"/>
+                          </svg>
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                              <h5 class="hide2 ps-3">Borrower</h5>
+                            </div>
+                            
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                              <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                            </div>
+                            </div>
+                          
+                            <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                            
+                            <h5 class="hide1">Borrower</h5>
+                        
+                      </div>
+                      
+                      <div class="card ms-3">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M186.5,-139.7C230.7,-93.3,247.9,-16.4,233.4,55.7C218.9,127.7,172.6,195,112.8,217.3C52.9,239.7,-20.4,217.1,-84.7,183.3C-148.9,149.5,-204.1,104.3,-219.6,47.1C-235.2,-10.2,-211,-79.6,-167.8,-125.8C-124.6,-172,-62.3,-195,4.4,-198.5C71.1,-202.1,142.3,-186.1,186.5,-139.7Z" fill="#FE840E" />
+                          </svg>
+                          
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                              <h5 class="hide2 ps-3">Anchor</h5>
+                            </div>
+                            
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                              <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                            </div>
+                            </div>
+                          
+                            <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                            
+                            <h5 class="hide1">Anchor</h5>
+                        
+                      </div>
+                      
+                      <div class="card ms-3">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M186.5,-139.7C230.7,-93.3,247.9,-16.4,233.4,55.7C218.9,127.7,172.6,195,112.8,217.3C52.9,239.7,-20.4,217.1,-84.7,183.3C-148.9,149.5,-204.1,104.3,-219.6,47.1C-235.2,-10.2,-211,-79.6,-167.8,-125.8C-124.6,-172,-62.3,-195,4.4,-198.5C71.1,-202.1,142.3,-186.1,186.5,-139.7Z" fill="#FE840E" />
+                          </svg>
+                          
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                              <h5 class="hide2 ps-3">Mpower</h5>
+                            </div>
+                            
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                              <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                            </div>
+                            </div>
+                          
+                            <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                            
+                            <h5 class="hide1">Mpower</h5>
+                        
+                      </div>
+                      
+                      </div>
+                    
+              </div>
+    
+            </div>
+          </div>
+                </div>
+
+                
+                 </div>
+                </div>
+
+              </div>
+
+
+
+             
+            </div> 
+            <div class="carousel-item active">
+              <div class="row">
+                
+                <div class="col-md-12">
+                 <div id="hero" class="pt-5 mt-3" style="background-image: url('src/img/banner3.svg');background-size:54%;background-repeat: no-repeat;background-position: right;background-position-x: 125%;">
+                  <div class="container pb-5">
+
+                  
+                  <div class="head-title pt-5">
+                    <h3 class="mb-1">ABHIMAAN</h3>
+					
+                    <h1 class="display-5 mt-0">Delivering Your <br> Earnings Now</h1>
+                    <p class="fs-6 mb-0">Why wait 75 days for client payments? <br> Get instant access to earnings when</p>
+                    <a href="#" class="text-decoration-underline">Service is complete</a>
+                  </div>
+
+                    <div class="pt-5 ">
+
+            <div class="row card-section">
+              <div class="col-md-12">
+                   
+                    <div class="card-items">
+    
+    
+                      <div class="card active1">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M192.1,-148.2C230,-105.8,228.6,-27,204.4,33.7C180.2,94.3,133.3,136.8,77.7,165C22.1,193.1,-42.1,206.9,-94.5,185.7C-146.9,164.5,-187.5,108.3,-201.7,46C-215.9,-16.2,-203.7,-84.5,-165.7,-127C-127.7,-169.5,-63.8,-186.3,6.6,-191.6C77.1,-196.9,154.3,-190.7,192.1,-148.2Z"></path>
+                          </svg>
+    
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                          <div class="d-flex align-items-center">
+                            <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                            <h5 class="hide2 ps-3">Lender</h5>
+                          </div>
+                          
+                        
+                          <div class="d-flex align-items-center">
+                            <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                            <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                          </div>
+                          </div>
+                        
+                          <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                          
+                          <h5 class="hide1">Lender</h5>
+                          
+                      </div>
+                      
+                      <div class="card ms-3">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M194.1,-154.4C241.7,-95.1,263.7,-14.9,242.8,47C222,108.9,158.3,152.7,93.7,177.1C29.1,201.5,-36.4,206.6,-87.6,182C-138.8,157.3,-175.7,102.9,-189.7,42.9C-203.7,-17.1,-194.9,-82.8,-159.5,-139.3C-124.1,-195.9,-62,-243.5,5.6,-247.9C73.2,-252.4,146.5,-213.8,194.1,-154.4Z"/>
+                          </svg>
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                              <h5 class="hide2 ps-3">Borrower</h5>
+                            </div>
+                            
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                              <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                            </div>
+                            </div>
+                          
+                            <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                            
+                            <h5 class="hide1">Borrower</h5>
+                        
+                      </div>
+                      
+                      <div class="card ms-3">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M186.5,-139.7C230.7,-93.3,247.9,-16.4,233.4,55.7C218.9,127.7,172.6,195,112.8,217.3C52.9,239.7,-20.4,217.1,-84.7,183.3C-148.9,149.5,-204.1,104.3,-219.6,47.1C-235.2,-10.2,-211,-79.6,-167.8,-125.8C-124.6,-172,-62.3,-195,4.4,-198.5C71.1,-202.1,142.3,-186.1,186.5,-139.7Z" fill="#FE840E" />
+                          </svg>
+                          
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                              <h5 class="hide2 ps-3">Anchor</h5>
+                            </div>
+                            
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                              <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                            </div>
+                            </div>
+                          
+                            <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                            
+                            <h5 class="hide1">Anchor</h5>
+                        
+                      </div>
+                      
+                      <div class="card ms-3">
+                          <svg class="svg-background" viewBox="0 0 600 600">
+                              <path class="blob" d="M186.5,-139.7C230.7,-93.3,247.9,-16.4,233.4,55.7C218.9,127.7,172.6,195,112.8,217.3C52.9,239.7,-20.4,217.1,-84.7,183.3C-148.9,149.5,-204.1,104.3,-219.6,47.1C-235.2,-10.2,-211,-79.6,-167.8,-125.8C-124.6,-172,-62.3,-195,4.4,-198.5C71.1,-202.1,142.3,-186.1,186.5,-139.7Z" fill="#FE840E" />
+                          </svg>
+                          
+                          <div class="ps-3 pt-3 hide2">
+    
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/card-icon.svg" class="hide2" alt="icon" width="20">
+                              <h5 class="hide2 ps-3">Mpower</h5>
+                            </div>
+                            
+                          
+                            <div class="d-flex align-items-center">
+                              <img src="src/img/des-icon.svg" class="hide2" alt="icon" width="30">
+                              <p class="hide2 ps-2 m-0">Inclusion of trusted vendors of credit-worthy anchors</p>
+                            </div>
+                            </div>
+                          
+                            <img src="src/img/aero.svg" alt="aero" class="aero-img hide2" width="40">
+                            
+                            <h5 class="hide1">Mpower</h5>
+                        
+                      </div>
+                      
+                      </div>
+                    
+              </div>
+    
+            </div>
+          </div>
+                </div>
+
+                
+                 </div>
+                </div>
+
+              </div>
+             
+            </div>
+           
+          </div>
+        
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+
+        
+        </div>
+      </div>
+
+
+     
+    </section>
+
+  </div>
+
+
+  <section class="section1 py-5 mt-0" style="background: url('second-sec.svg');
+ 	background-size: 100%;
+    background-position-y: -284px;
+    background-repeat: no-repeat;
+    background-position-x: 229px;
+  
+  ">
+
+  
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-12 text-center">
+  				<h1>Accrued Income finance</h1>
+  				<p>Your income is earned the moment service is completed. So why wait to receive payment? Accrued Income Finance gives you access to funds as early as service being completed.</p>
+  			</div>
+  			<div class="row row-cols-1 row-cols-sm-3 row-cols-md-5 mt-5">
+  				 <div class="col finance-div first_child">
+  				    <h6>Day 0</h6>
+  				    <h4>Requirements</h4>
+  				  </div>
+  				  <div class="col finance-div second_child">
+  				    <h6>Day 0 - 7</h6>
+  				    <h4>Fullfillment</h4>
+  				  </div>
+  				  <div class="col finance-div third_child">
+  				    <h6>Day 7 - 30</h6>
+  				    <h4>Income Accrued</h4>
+  				  </div>
+  				  <div class="col finance-div fourth_child">
+  				    <h6>Day 30 - 45</h6>
+  				    <h4>Billing cycle</h4>
+  				  </div>
+  				  <div class="col finance-div last_child">
+  				    <h6>Day 45 - 70</h6>
+  				    <h4>Invoice approval</h4>
+  				  </div>
+  			</div>
+  			<div class="content-div">
+  				   <div class="imgdiv1">
+  					  	<img src="img/path5.svg" alt="">
+  					 </div>	
+  					 <div class="imgdiv2">
+  					  	<img src="img/path4.svg" alt="">
+  					 </div>	
+  					 <div class="imgdiv3">
+  					  	<img src="img/path2.svg" alt="">
+  					 </div>	
+  					 <div class="imgdiv4">
+  					 	 <img src="img/path3.svg" alt="">
+  					 </div>
+  					 <div class="imgdiv5">
+  					 	 <img src="img/path1.svg" alt="">
+  					 </div>	
+	  				<div class="circle-div">
+	  					  <img src="img/logo.png" alt="">
+	  					  <h4 class="mt-0">Accrued income finance</h4>
+	  				</div>
+	  				<div class="rectangle-div">
+	  					<h4>Get access to these funds at any stage</h4>
+	  					<ul>
+	  						<li>Operating expenses payable in advance</li>
+	  						<li>Recurring business expenses</li>
+	  						<li>Contingency expenses</li>
+	  					</ul>
+	  				</div>
+  			</div>
+  		</div> 
+  	</div>  
+  </section>
+
+
+  <!-- @here -->
+  <section class="section2 py-5">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-lg-6 col-12 ">
+  				<div class="img-div">
+  				  <img src="img/matrix.png" alt="">
+  				</div>
+  			</div>
+  			<div class="col-md-6 col-lg-6 col-12 div-right">
+  				<h5 class="mb-0">Technology that</h5>
+
+				  <div class="Iam pt-0">
+
+				  
+				
+					  
+					<b>
+						<div class="innerIam">
+						  Allows you to <br> churn your capital <br> faster to grow your business1<br /> 
+						  Allows you to <br> churn your capital <br> faster to grow your business2<br />
+						  Allows you to <br> churn your capital <br> faster to grow your business3<br />
+						  
+						  
+						</div>
+					  </b>
+					  
+  				  
+			</div>
+			
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+
+
+  <!--  -->
+
+  <style>
+
+	 
+  </style>
+
+
+
+		<div class="container pt-5 mt-5">
+			<div class="col-12 text-center fw-bold pb-5">
+				<h1 class="fw-bolder">Be a Borrower</h1>
+				<p class="fs-5">WITH ONE INFINITY</p>
+						
+			</div>
+
+		</div>
+
+			<div class="container-flex pt-5">
+				
+
+				
+				<img src="img/road.svg" class="position-absolute" width="100%" alt="">
+			
+		
+							<div class="container">
+
+
+							<div class="container uk-child-width-1-1@m uk-grid-match" >
+								<div class="" uk-grid uk-scrollspy="cls: uk-animation-slide-left; target: .uk-card3; delay: 300; repeat: true">
+									<div class="uk-card3 position-car">
+										<img src="img/car.svg" class="move1" width="150" alt="">
+									</div>
+
+								</div>
+								
+							</div>
+							
+							</div>
+			</div>
+  <section class="bg-white pt-2 pb-5">
+	<div class="container pt-4 pb-5">
+	
+	  <div class="row mt-3">
+		<div class="col-md-3 middle1" uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+		  <div class="icon-card2 p-3 uk-card border bg-white" >
+			<img src="img/note.svg" alt="" width="70" class="icon-position ps-2">
+			<div class="div" uk-scrollspy="cls: uk-animation-scale-up; target: .uk-card2; delay: 1000; repeat: true">
+
+			
+			<img src="img/right.svg" alt="" width="70" class="icon-position ps-2 uk-card2">
+		  </div>
+			<div class="text1 ps-3 pe-2">
+			  <h5 class="fw-bold mt-2 m-0">Order financed</h5>
+			<p class="text-secondary">Advance for fuel & Driver cost</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-3 middle1" uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 1800; repeat: true">
+		  <div class="icon-card2 p-3 uk-card border bg-white" >
+			<img src="img/note.svg" alt="" width="70" class="icon-position ps-2">
+			<div class="div" uk-scrollspy="cls: uk-animation-scale-up; target: .uk-card2; delay: 2500; repeat: true">
+
+			
+			<img src="img/right.svg" alt="" width="70" class="icon-position ps-2 uk-card2">
+		  </div>
+			<div class="text1 ps-3 pe-2">
+			  <h5 class="fw-bold mt-2 m-0">Service delivered</h5>
+			<p class="text-secondary">Advance for rotation & Rollovers</p>
+			</div>
+		  </div>
+		</div>
+
+		<div class="col-md-3 middle1" uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 2800; repeat: true">
+		  <div class="icon-card2 p-3 uk-card border bg-white" >
+			<img src="img/note.svg" alt="" width="70" class="icon-position ps-2">
+			<div class="div" uk-scrollspy="cls: uk-animation-scale-up; target: .uk-card2; delay: 3500; repeat: true">
+
+			
+			<img src="img/right.svg" alt="" width="70" class="icon-position ps-2 uk-card2">
+		  </div>
+			<div class="text1 ps-3 pe-2">
+			  <h5 class="fw-bold mt-2 m-0">Invoice raised</h5>
+			<p class="text-secondary">Advance for monthly, Scheduled payments</p>
+			</div>
+		  </div>
+		</div>
+
+
+		<div class="col-md-3 middle1" uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 3800; repeat: true">
+		  <div class="icon-card2 p-3 uk-card border bg-white" >
+			<img src="img/note.svg" alt="" width="70" class="icon-position ps-2">
+			<div class="div" uk-scrollspy="cls: uk-animation-scale-up; target: .uk-card2; delay: 4800; repeat: true">
+
+			
+			<img src="img/right.svg" alt="" width="70" class="icon-position ps-2 uk-card2">
+		  </div>
+			<div class="text1 ps-3 pe-2">
+			  <h5 class="fw-bold mt-0 mb-5 m-0">Payment against Invoice</h5>
+				<!-- <p class="text-secondary">Freedom from expensive, unstructured finance</p> -->
+			</div>
+		  </div>
+		</div>
+	   
+	   
+		</div>
+		
+	  
+		
+
+	  </div>
+
+	</div>
+  </section>
+
+
+
+
+
+  <!--  -->
+
+
+
+
+
+
+
+  <section>
+	  <div class="container pt-5 pb-5">
+		
+		  <div class="row pt-5">
+			<div class="col-12 text-center fw-bold pb-5 mb-5">
+				<h1 class="fw-bolder">Benefits of Accrued Income Finance<span class="fw-normal">™</span></h1>
+						
+			</div>
+
+			<div class="col-md-3 middle1 pt-3 pb-3">
+				<div class="icon-card2 p-4 border">
+				  <img src="img/moneysack.svg" alt="" width="50" class="icon-position ps-2">
+				  <div class="text1">
+					<h5 class="fw-bold mt-0 m-0">Freedom</h5>
+				  	<p class="text-secondary pt-2">Freedom from expensive, unstructured finance</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 middle1 pt-3 pb-3">
+				<div class="icon-card2 p-4 border">
+				  <img src="img/unlock.svg" alt="" width="50" class="icon-position ps-2">
+				  <div class="text1">
+					<h5 class="fw-bold mt-0 m-0">Unlock</h5>
+				  	<p class="text-secondary pt-2">Unlock your rightful <br> earnings now</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 middle1 pt-3 pb-3">
+				<div class="icon-card2 p-4 border">
+				  <img src="img/grow.svg" alt="" width="55" height="55" class="icon-position ps-2">
+				  <div class="text1">
+					<h5 class="fw-bold mt-0 m-0">Grow</h5>
+				  	<p class="text-secondary pt-2">Let your business <br> grow itself</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 middle1 pt-3 pb-3">
+				<div class="icon-card2 p-4 border">
+				  <img src="img/bluid.svg" alt="" width="70" height="70" class="icon-position ps-2">
+				  <div class="text1">
+					<h5 class="fw-bold mt-0 m-0">Build</h5>
+				  	<p class="text-secondary pt-2">Build your credit <br> profile</p>
+				  </div>
+				</div>
+			  </div>
+		  </div>
+
+	  </div>
+  </section>
+
+  <section>
+	<div class="container pt-5 pb-5">
+	  
+		<div class="row pt-5">
+		  <div class="col-12 text-center fw-bold pb-5 mb-5">
+			  <h1 class="fw-bolder">Be a Lender</h1>
+			  <p class="fs-5">WITH ONE INFINITY</p>
+			  <h5 class="fw-bold">Value Proposition</h5>
+					  
+		  </div>
+
+		  <div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/moneyreload.svg" alt="" width="65" height="65" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 m-0">Early entry into lending cycle</h5>
+					<p class="text-secondary pt-2">Better Returns</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/file.svg" alt="" width="60" height="60" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 mb-4 m-0">Continuous credit assessment of vendor & anchor</h5>
+					<!-- <p class="text-secondary pt-2">Unlock your rightful <br> earnings now</p> -->
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/comp.svg" alt="" width="60" height="60" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 m-0">One stop tech partner for entire loan life cycle</h5>
+					<p class="text-secondary pt-2">Hassle-free lending</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/moneyreload.svg" alt="" width="65" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 m-0">Portfolio diversification</h5>
+					<p class="text-secondary pt-2">Acquisition of upwardly mobile customer segment</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+
+
+		<div class="row pt-5">
+			<h5 class="text-center fw-bold">How it works</h5>
+			<div class="col-md middle1 pt-4 pb-3">
+			  <div class="lender-card2 p-3 active">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">1</h1>
+				<h5 class="fw-bold mt-2 m-0">Define</h5>
+				<p class="mt-2">Define your credit underwriting <br> parameters</p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="col-md middle1 pt-4 pb-3">
+			  <div class="lender-card2 p-3 ">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">2</h1>
+				<h5 class="fw-bold mt-2 m-0">Match</h5>
+				<p class="mt-2">Platform assesses the risk, and matches with right borrowers</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md middle1 pt-4 pb-3">
+			  <div class="lender-card2 p-3 ">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">3</h1>
+				<h5 class="fw-bold mt-2 m-0">Approve</h5>
+				<p class="mt-2">Approve lending limit and interest rate</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md middle1 pt-4 pb-3">
+			  <div class="lender-card2 p-3 ">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">4</h1>
+				<h5 class="fw-bold mt-2 m-0">Disburse</h5>
+				<p class="mt-2">Lend against anchor approved – service order</p>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="col-md middle1 pt-4 pb-3">
+			  <div class="lender-card2 p-3 ">
+				<div class=" ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">5</h1>
+				<h5 class="fw-bold mt-2 m-0">Collect</h5>
+				<p class="mt-2">Receive payments directly from anchor</p>
+				</div>
+			  </div>
+			</div>
+		   
+			</div>
+
+	</div>
+</section>
+
+
+<section>
+	<div class="container pt-5 pb-5">
+	  
+		<div class="row pt-5">
+		  <div class="col-12 text-center fw-bold pb-5 mb-5">
+			  <h1 class="fw-bolder">Be an Anchor</h1>
+			  <p class="fs-5">WITH ONE INFINITY</p>
+			  <h5 class="fw-bold">Value Proposition</h5>
+					  
+		  </div>
+
+		  <div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/moneyreload.svg" alt="" width="65" height="65" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 m-0">No hassle of advance payments and reconciliation</h5>
+					<!-- <p class="text-secondary pt-2">Better Returns</p> -->
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/file.svg" alt="" width="60" height="60" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 mb-4 m-0">Lower attrition rates of vendors</h5>
+					<!-- <p class="text-secondary pt-2">Unlock your rightful <br> earnings now</p> -->
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/comp.svg" alt="" width="60" height="60" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 m-0">Your vendors paid on requirement</h5>
+					<!-- <p class="text-secondary pt-2">Hassle-free lending</p> -->
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 middle1 pt-3 pb-3">
+			  <div class="icon-card2 p-4 border">
+				<img src="img/moneyreload.svg" alt="" width="65" class="icon-position ps-2">
+				<div class="text1">
+				  <h5 class="fw-bold mt-0 m-0">Lower input cost for your vendors = low operational cost for you</h5>
+					<!-- <p class="text-secondary pt-2">Acquisition of upwardly mobile customer segment</p> -->
+				</div>
+			  </div>
+			</div>
+		</div>
+
+
+		<div class="row pt-5 ">
+			<h5 class="text-center fw-bold">How it works</h5>
+			<div class="d-flex1">
+
+			
+			<div class="middl pt-4 pb-3 me-4">
+			  <div class="lender-card2 p-3 active">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">1</h1>
+				<h5 class="fw-bold mt-2 m-0">Approval</h5>
+				<p class="mt-2">Approve your vendors</p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="middl pt-4 pb-3 me-4">
+			  <div class="lender-card2 p-3 ">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">2</h1>
+				<h5 class="fw-bold mt-2 m-0">Match</h5>
+				<p class="mt-2">Validate your vendors’ service orders, proof of delivery & invoice</p>
+				</div>
+			  </div>
+			</div>
+			<div class="middl pt-4 pb-3 me-4">
+			  <div class="lender-card2 p-3 ">
+				<div class="ps-3 pe-2">
+				<h1 class="fw-bold text2 display-5 m-0">3</h1>
+				<h5 class="fw-bold mt-2 m-0">Supplement</h5>
+				<p class="mt-2">Help them supplement their cashflows in time</p>
+				</div>
+			  </div>
+			</div>
+			
+		</div>
+			
+		   
+			</div>
+
+	</div>
+</section>
+
+
+<section class=" pt-5 mt-5">
+	<div class="container-flex" style="background: url('img/contact-bg.svg');;width:100%; background-position-x:60% ;background-repeat: no-repeat;">
+
+		<div class="pt-5" style="background: url('img/contact.svg');;background-size: 75%;background-repeat: no-repeat;background-position: right;background-position-x: 149%;background-position-y: 100px;">
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-3 contact-title pt-5 pb-5">
+						<h1 class="fw-bolder pt-5 mt-5 pb-5">Contact us for inquires & more info</h1>
+
+					</div>
+
+					<div class="col-12 col-md-8 pb-5 card1 offset-md-1">
+
+						<div class="contact-card bg-white p-4 w-50 mb-5">
+							<h5 class="pt-2 fw-bold">We’ll get back to you</h5>
+
+							<div class="form pt-1 pb-3">
+								<form action="" class="" method="post">
+									<label for="">NAME</label>
+									<input type="text" class="form-control" >
+
+									<label class="pt-3" for="">CITY</label>
+									<input type="text" class="form-control" >
+
+									<label class="pt-3" for="">PHONE NUMBER</label>
+									<input type="tel" class="form-control" >
+
+									<label class="pt-3" for="">EMAIL</label>
+									<input type="eamil" class="form-control" >
+
+									<button type="submit" class="btn w-100 btn-color mt-4 text-white"><b>Contact Us</b></button>
+									
+								</form>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			
+		</div>
+	</div>
+
+	
+</section>
+
+
+<footer>
+	<div class="footer-bg">
+		
+
+			<div class="container pt-5">
+				<div class="row ">
+					<div class="col-md">
+						<img src="img/logo-footer.svg" width="150" alt="">
+					</div>
+				  <div class="col-md">
+					<h5 class="fw-bold fs-5 text-white">Products</h5>
+					<ul class="p-0 list-group1">
+					  <li><a href="" class="text-white text-decoration-none">Mpower</a></li>
+					  <li><a href="" class="text-white text-decoration-none">Abhi Maan</a></li>
+					  <li><a href="" class="text-white text-decoration-none">Borrower</a></li>
+					</ul>
+  
+				  </div>
+				  <div class="col-md">
+					<h5 class="fw-bold fs-5 text-white">Support</h5>
+					<ul class="p-0 list-group1">
+					  <li><a href="" class="text-white text-decoration-none">Contact us</a></li>
+					  <li><a href="" class="text-white text-decoration-none">Terms &amp; conditions</a></li>
+					 
+					</ul>
+  
+				  </div>
+				  <div class="col-md">
+					<h5 class="fw-bold fs-5 text-white">One Infinity</h5>
+					<ul class="p-0 list-group1">
+					  <li><a href="" class="text-white text-decoration-none">How it Works</a></li>
+					  <li><a href="" class="text-white text-decoration-none">About Us</a></li>
+					 
+					</ul>
+  
+				  </div>
+				  <div class="col-md">
+					<h5 class="fw-bold fs-5 text-white">Follow us!</h5>
+					<ul class="p-0 group1 d-inline-flex pt-4" >
+					  <li><a href="#"><img src="img/linkedin.svg" width="20" alt="fb"></a></li>
+					  <!-- <li><a href="#"><img src="img/facebook.svg" width="20" alt="fb"></a></li>
+					  <li><a href="#"><img src="img/linkedin.svg" width="20" alt="fb"></a></li>
+					  <li><a href="#"><img src="img/twitter.svg" width="20" alt="fb"></a></li>
+					  -->
+					</ul>
+  
+				  </div>
+  
+				</div>
+			   
+				<div class="text-center pt-4">
+
+					<p class="text-white pt-4 pb-4"> ® 2020-2021 - Oneinfinity . All rights reserved.</p>
+	   
+				</div>
+			  </div>
+	</div>
+</footer>
+
+
+
+
+<!-- /@here -->
+
+<script src="src/js/card.js"></script>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js"></script>
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

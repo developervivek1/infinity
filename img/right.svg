@@ -1,0 +1,10 @@
+<svg id="Group_7091" data-name="Group 7091" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.336" height="100.336" viewBox="0 0 100.336 100.336">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7bded5"/>
+      <stop offset="1" stop-color="#58c4ba"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_214" data-name="Rectangle 214" width="100.336" height="100.336" rx="50.168" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M19.324,46.171.833,27.68a2.845,2.845,0,0,1,0-4.023l4.023-4.023a2.845,2.845,0,0,1,4.023,0L21.336,32.09,48.016,5.41a2.845,2.845,0,0,1,4.023,0l4.023,4.023a2.845,2.845,0,0,1,0,4.023L23.347,46.171A2.845,2.845,0,0,1,19.324,46.171Z" transform="translate(21.721 24.374)" fill="#fff"/>
+</svg>

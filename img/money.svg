@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.999" height="95.037" viewBox="0 0 98.999 95.037">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5f92ce"/>
+      <stop offset="1" stop-color="#83b0e4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7104" data-name="Group 7104" transform="translate(-186 -7988.426)">
+    <g id="noun_clock_867696" transform="translate(232.46 7988.426)">
+      <g id="Group_7052" data-name="Group 7052">
+        <path id="Path_5584" data-name="Path 5584" d="M26.269,0A26.269,26.269,0,1,1,0,26.269,26.268,26.268,0,0,1,26.269,0ZM23.936,13.782a2.328,2.328,0,0,1,4.655,0V24.929l7.347,4.24a2.324,2.324,0,0,1-2.334,4.02L25.253,28.36a2.319,2.319,0,0,1-1.317-2.091Z" fill="#b8d1ef"/>
+      </g>
+    </g>
+    <g id="Group_7051" data-name="Group 7051" transform="translate(-147 218.684)">
+      <g id="Group_7050" data-name="Group 7050" transform="translate(333 7796)">
+        <path id="Path_5583" data-name="Path 5583" d="M59.285,4H13.861C7.32,4,2,9.785,2,16.9V59.883c0,7.111,5.32,12.9,11.861,12.9H59.285c6.54,0,11.861-5.785,11.861-12.9V16.9C71.146,9.785,65.825,4,59.285,4Z" transform="translate(-2 -4)" fill="url(#linear-gradient)"/>
+        <path id="Icon_awesome-rupee-sign" data-name="Icon awesome-rupee-sign" d="M21.69,7.021a.871.871,0,0,0,.845-.895V3.145a.871.871,0,0,0-.845-.895H.845A.871.871,0,0,0,0,3.145V6.481a.871.871,0,0,0,.845.895H6.851a4.972,4.972,0,0,1,4.294,2.032H.845A.871.871,0,0,0,0,10.3v2.982a.871.871,0,0,0,.845.895h11.18a4.939,4.939,0,0,1-5.265,4.371H.845A.871.871,0,0,0,0,19.444V23.4a.92.92,0,0,0,.272.657L11.9,35.412a.82.82,0,0,0,.573.237h5.814a.9.9,0,0,0,.573-1.552L8.23,23.714c5.387-.174,9.236-3.981,9.741-9.535H21.69a.871.871,0,0,0,.845-.895V10.3a.871.871,0,0,0-.845-.895H17.557a10.518,10.518,0,0,0-1-2.386Z" transform="translate(23.305 15.44)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

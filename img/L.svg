@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="722" height="322" viewBox="0 0 722 322">
+  <defs>
+    <filter id="Lender_card" x="0" y="0" width="722" height="322" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.31" y1="0.023" x2="0.801" y2="0.964" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#85b1e5"/>
+      <stop offset="1" stop-color="#5e91cd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.978" y1="1" x2="0.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#58c4ba"/>
+      <stop offset="1" stop-color="#58c4ba"/>
+    </linearGradient>
+  </defs>
+  <g id="L" transform="translate(-64 -722)">
+    <g transform="matrix(1, 0, 0, 1, 64, 722)" filter="url(#Lender_card)">
+      <rect id="Lender_card-2" data-name="Lender card" width="650" height="250" rx="20" transform="translate(36 28)" fill="#fff"/>
+    </g>
+    <text id="Inclusion_of_trusted_vendors_of_credit-worthy_anchors" data-name="Inclusion of trusted vendors  of credit-worthy anchors" transform="translate(282.791 877.859)" fill="#767676" font-size="24" font-family="Work Sans"><tspan x="0" y="0">Inclusion of trusted vendors of </tspan><tspan x="0" y="36">creditworthy anchors into your</tspan><tspan x="0" y="72">portfolio. Be an OI Lender</tspan></text>
+    <g id="Lender_Icon" data-name="Lender Icon" transform="translate(63 151.051)">
+      <g id="Group_6683" data-name="Group 6683" transform="translate(98.856 655.261)">
+        <g id="Group_6681" data-name="Group 6681">
+          <path id="Path_5121" data-name="Path 5121" d="M152.005,57.162a1.673,1.673,0,0,1-1.351-.683,9.07,9.07,0,0,0-8.5-3.989,16.828,16.828,0,0,1-11-2.5,1.675,1.675,0,1,1,1.8-2.823,13.509,13.509,0,0,0,8.837,1.989,12.461,12.461,0,0,1,11.553,5.335,1.676,1.676,0,0,1-1.348,2.668Z" transform="translate(-130.385 -46.905)" fill="#334051"/>
+        </g>
+        <g id="Group_6682" data-name="Group 6682" transform="translate(2.407 9.068)">
+          <path id="Path_5122" data-name="Path 5122" d="M143.161,98.81a1.676,1.676,0,0,1-1.426-2.552c2.147-3.5,6.082-5.9,11.38-6.953a30.377,30.377,0,0,1,7.239-.546,1.675,1.675,0,0,1-.227,3.343c-.116-.008-11.491-.682-15.537,5.909a1.674,1.674,0,0,1-1.429.8Z" transform="translate(-141.487 -88.726)" fill="#334051"/>
+        </g>
+      </g>
+      <path id="Union_68" data-name="Union 68" d="M31.257,93.515H26.518C-1.266,93.515-16.6,52,28.8,20.779h0c.615-.425,1.235-.844,1.872-1.264,0,0-.763-1.011-1.829-2.576h0c-2.934-4.3-8.128-12.773-5.816-15.753,1.081-1.394,1.994.519,4.219.519C29.858,1.705,29.858,0,32.466,0c2.484,0,2.607,1.544,4.854,1.694,0,0,0,0,0,0,.087.009.175.013.269.016h.1C40.294,1.705,40.294,0,42.9,0s2.614,1.705,5.22,1.705c2.221,0,3.138-1.886,4.215-.5C55.491,5.29,44.53,19.515,44.53,19.515c47.851,31.464,32.57,74,4.324,74Z" transform="translate(94.477 645.09)" fill="url(#linear-gradient)"/>
+      <path id="Path_5125" data-name="Path 5125" d="M245.67,84.429a38.127,38.127,0,0,1-19.03,0,4.063,4.063,0,0,1-2.676-5.319l.027-.076a3.749,3.749,0,0,1,4.425-2.5,30.982,30.982,0,0,0,15.478,0,3.749,3.749,0,0,1,4.425,2.5l.027.076A4.063,4.063,0,0,1,245.67,84.429Z" transform="translate(-104.628 585.236)" fill="#334051"/>
+      <g id="Group_6705" data-name="Group 6705" transform="translate(138.603 728.124)">
+        <g id="Group_6704" data-name="Group 6704">
+          <g id="Group_6703" data-name="Group 6703">
+            <g id="Group_6702" data-name="Group 6702">
+              <g id="Group_6701" data-name="Group 6701">
+                <g id="Group_6700" data-name="Group 6700">
+                  <g id="Group_6699" data-name="Group 6699">
+                    <g id="Group_6698" data-name="Group 6698">
+                      <g id="Group_6697" data-name="Group 6697">
+                        <g id="Group_6696" data-name="Group 6696">
+                          <g id="Group_6695" data-name="Group 6695">
+                            <g id="Group_6694" data-name="Group 6694">
+                              <g id="Group_6690" data-name="Group 6690">
+                                <path id="Path_5129" data-name="Path 5129" d="M313.691,382.938v.119l.079-.035Z" transform="translate(-313.69 -382.938)" fill="#f5dbcc"/>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Icon_awesome-rupee-sign" data-name="Icon awesome-rupee-sign" d="M16.28,5.633A.634.634,0,0,0,16.914,5V2.884a.634.634,0,0,0-.634-.634H.634A.634.634,0,0,0,0,2.884V5.25a.634.634,0,0,0,.634.634H5.142a3.813,3.813,0,0,1,3.223,1.44H.634A.634.634,0,0,0,0,7.959v2.114a.634.634,0,0,0,.634.634H9.026a3.653,3.653,0,0,1-3.951,3.1H.634A.634.634,0,0,0,0,14.441v2.8a.634.634,0,0,0,.2.466l8.724,8.053a.634.634,0,0,0,.43.168h4.364a.634.634,0,0,0,.43-1.1L6.177,17.468a7.241,7.241,0,0,0,7.311-6.761H16.28a.634.634,0,0,0,.634-.634V7.959a.634.634,0,0,0-.634-.634h-3.1a7.24,7.24,0,0,0-.753-1.691Z" transform="translate(123.978 689.615)" fill="#fff"/>
+      <g id="Group_6779" data-name="Group 6779" transform="translate(77.791 752.482)">
+        <path id="Path_5146" data-name="Path 5146" d="M9.593,42.075c1.173,2.083,2.9,8.358,2.9,8.358L15.13,45.8l.417-22.984S4.218,12.977,2.526,8.111A8.546,8.546,0,0,1,3.59,0S18.345,14.983,29.6,23.322c1.91,1.416,2.334,4.687,3.756,8.74,2.18.977,5.235,2.81,5.235,7.163,3.543,3.047,2.844,6.525,2.674,12.713-.119,4.327-.37,20.855-.175,27.175.2,6.574,1.423,15.331,1.911,27.295l-21.982.143c.656-9.46-.673-24.808-.763-25.981-.187-2.4-7.423-9.345-10.637-15.232S2.17,39.266,0,37.529c.86-1.842,1.595-4.474,6.124-1.3C8.242,37.716,7.671,38.665,9.593,42.075Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 109.289, 7.432)" fill="#c4dfff"/>
+        <path id="Path_14" data-name="Path 14" d="M8.006,16.052S2.872,11.067.883,7.755.883,0,.883,0l12.64,11.942Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 99.975, 11.814)" fill="#a4c8f2"/>
+        <path id="Path_15" data-name="Path 15" d="M13.153,45.8,13.57,22.82S2.242,12.977.549,8.111A8.546,8.546,0,0,1,1.614,0S16.369,14.983,27.62,23.322c1.91,1.416,2.334,4.687,3.756,8.74,2.18.977,5.235,2.81,5.235,7.163,3.543,3.047,2.844,6.525,2.674,12.713-.119,4.327-.37,20.855-.175,27.175.2,6.574,1.423,15.331,1.911,27.295l-21.982.143c.656-9.46-.671-23.318-.76-24.491C18.092,79.658,8.3,55.692,13.153,45.8Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 109.151, 9.385)" fill="#c4dffe"/>
+        <path id="Path_16" data-name="Path 16" d="M18.743,0c2.444.387,4.878.781,7.286,1.3L22.4,8.05S11.6,10.39,7.422,11C2.105,11.782,0,6.852,0,6.852S7.481,3.97,8.984,3.587C9.9,3.355,15.858,1.144,18.743,0Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 75.447, 8.622)" fill="#c4dffe"/>
+        <path id="Path_17" data-name="Path 17" d="M11.579,3.8C15.2,1.972,22.177-1.437,25.172.66c1.368.957,6.789,8.642,8.973,11.781-3.53-.729-7.11-1.225-10.695-1.836L21.328,8.733A80.614,80.614,0,0,1,7.984,12.509C1.5,13.527,0,8.577,0,8.577S7.957,5.628,11.579,3.8Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 89.147, 1.968)" fill="#c4dffe"/>
+        <path id="Path_18" data-name="Path 18" d="M.842,2.323,11.81,0a9.815,9.815,0,0,1,.89,10.212c-.684,1.463-5.492,11.846-5.838,15.482-.412,4.341,3.179,9.241,3.179,9.241s-5.675-4.64-5.415-9.327S8.3,8.141,8.3,8.141L0,6.072Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 66.679, 18.62)" fill="#a4c8f2"/>
+        <path id="Path_19" data-name="Path 19" d="M0,6.421,8.1,3.683.117,0Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 78.343, 20.586)" fill="#a4c8f2"/>
+        <path id="Path_20" data-name="Path 20" d="M0,2.554C.585,4.215,1.622,4.8,3.664,4.528A23.711,23.711,0,0,0,7.834,3.477,10.021,10.021,0,0,0,6.761,0C4.6.939.729,2.2,0,2.554Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 71.189, 8.326)" fill="#85b1e5"/>
+        <path id="Path_21" data-name="Path 21" d="M0,2.554C.585,4.216,1.622,4.8,3.664,4.528a23.685,23.685,0,0,0,4.17-1.051A10.013,10.013,0,0,0,6.761,0C4.6.939.729,2.2,0,2.554Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 83.193, 1.553)" fill="#85b1e5"/>
+        <path id="Path_22" data-name="Path 22" d="M0,2.053a14.584,14.584,0,0,1,5.253-.746c2.582.206,7.093,3.269,7.093,3.269S10.287.854,7.227.188A8.546,8.546,0,0,0,0,2.053Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 88.79, 19.323)" fill="#a4c8f2"/>
+        <path id="Path_23" data-name="Path 23" d="M9.7.161A54.077,54.077,0,0,1,2.823.08,4.852,4.852,0,0,0,0,.433,9.608,9.608,0,0,0,3.094,1.4,10.065,10.065,0,0,0,9.7.161Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 26.41, 28.327)" fill="#a4c8f2"/>
+        <path id="Path_24" data-name="Path 24" d="M.886,0C-.29,1.309-.31,2.5.912,4.16A33.184,33.184,0,0,0,4.158,7.729,7.931,7.931,0,0,0,6.371,5.4,52.18,52.18,0,0,0,.886,0Z" transform="matrix(-0.07, 0.998, -0.998, -0.07, 109.1, 10.113)" fill="#85b1e5"/>
+      </g>
+    </g>
+    <g id="CTA" transform="translate(678 936)">
+      <g id="Group_4732" data-name="Group 4732">
+        <g id="Group_4731" data-name="Group 4731" transform="translate(0 0)">
+          <path id="Rectangle_4" data-name="Rectangle 4" d="M20,0H72a0,0,0,0,1,0,0V44A20,20,0,0,1,52,64H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M10.2,4.255l1.189-1.22a1.258,1.258,0,0,1,1.816,0L23.622,13.713a1.338,1.338,0,0,1,0,1.863L13.209,26.26a1.258,1.258,0,0,1-1.816,0L10.2,25.04a1.345,1.345,0,0,1,.021-1.885l6.455-6.309H1.286A1.3,1.3,0,0,1,0,15.527V13.768a1.3,1.3,0,0,1,1.286-1.319H16.68L10.226,6.14A1.335,1.335,0,0,1,10.2,4.255Z" transform="translate(24 17.352)" fill="#fff"/>
+    </g>
+    <text id="Lender1" transform="translate(282.791 825.259)" fill="#133058" font-size="40" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="0" y="0">Lender</tspan></text>
+  </g>
+</svg>

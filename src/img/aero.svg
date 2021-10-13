@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.872" height="48.101" viewBox="0 0 57.872 48.101">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.978" y1="1" x2="0.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5e91cd"/>
+      <stop offset="1" stop-color="#5e91cd" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_67811" data-name="Group 67811" transform="translate(-1112 -556)">
+    <g id="Group_4732" data-name="Group 4732" transform="translate(1112 556)">
+      <g id="Group_4731" data-name="Group 4731" transform="translate(0 0)">
+        <path id="Rectangle_4" data-name="Rectangle 4" d="M18,0H57.872a0,0,0,0,1,0,0V30.1a18,18,0,0,1-18,18H0a0,0,0,0,1,0,0V18A18,18,0,0,1,18,0Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M7.627,3.818l.889-.889a.957.957,0,0,1,1.357,0l7.783,7.779a.957.957,0,0,1,0,1.357L9.873,19.849a.957.957,0,0,1-1.357,0l-.889-.889a.962.962,0,0,1,.016-1.373l4.824-4.6H.961A.959.959,0,0,1,0,12.03V10.749a.959.959,0,0,1,.961-.961H12.467l-4.824-4.6A.955.955,0,0,1,7.627,3.818Z" transform="translate(1131.967 568.661)" fill="#fff"/>
+  </g>
+</svg>

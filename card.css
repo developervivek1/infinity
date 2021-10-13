@@ -1,0 +1,97 @@
+/* card script */
+
+.card {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    width: 120px;
+    border: 0;
+    /* padding: 20px; */
+    box-shadow: 0px 8px 24px #00000015;
+    background:  #ffff;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+}
+
+.card .ms-3{
+    box-shadow: 0px 8px 24px #00000015;
+}
+
+.card.active1{
+   
+    width: 311px;
+}
+.svg-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    z-index: -1;
+}
+.blob {
+    transform: translate(23%,3%) scale(0.65);
+    fill: transparent;
+    transition: 0.4s;
+}
+.card.active1 .blob {
+    /* fill: #5E91CD2E ; */
+    /* fill: rgb(19, 89, 79); */
+    transform: translate(23%,3%) scale(3.75);
+}
+
+.card .hide1 {
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+    color: #133058;
+    /* background-color: rgb(12, 51, 57); */
+    /* transform: translate(23%,3%) scale(3.75); */
+}
+
+
+.card.active1 h5{
+   font-weight: bold;
+   margin: 0;
+}
+
+.card.active1 .hide1{
+    display: none;
+}
+.card.active1 .hide2{
+    color: #133058;
+    display: block;
+}
+
+.card .hide1{
+    font-weight: 700;
+    color: #133058;
+    display: block;
+}
+.card .hide2{
+    display: none;
+}
+
+
+/* .card.active1 h3 {
+    display: block;
+} */
+/* .card h3 {
+    display: none;
+} */
+.card.active1 .bg-overlay {
+    opacity: 0;
+}
+
+
+
+@media (max-width:600px){
+    
+
+    .card, .card.active1{
+        width: 100%;
+        margin: 0px !important;
+    }
+
+}

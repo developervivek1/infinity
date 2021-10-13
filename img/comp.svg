@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.343" height="80.32" viewBox="0 0 89.343 80.32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#81ade1"/>
+      <stop offset="1" stop-color="#6093ce"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8eb8ea"/>
+      <stop offset="1" stop-color="#78ace8"/>
+    </linearGradient>
+  </defs>
+  <g id="noun_Tech_2624683" transform="translate(-50 -64)">
+    <g id="Group_7048" data-name="Group 7048" transform="translate(50 66)">
+      <path id="Union_70" data-name="Union 70" d="M24.943,24.668a1.369,1.369,0,0,1,0-2.734H30.99V11.686H57.873V21.934h6.548A1.32,1.32,0,0,1,65.7,23.3a1.34,1.34,0,0,1-1.3,1.368ZM5.116,10.02A5.2,5.2,0,0,1,0,4.758V0H89.343V4.758a5.217,5.217,0,0,1-5.116,5.261Z" transform="translate(0 53.652)" fill="url(#linear-gradient)"/>
+      <path id="Path_5564" data-name="Path 5564" d="M250.535,172.867h0a1.867,1.867,0,1,0-1.867,1.867A1.876,1.876,0,0,0,250.535,172.867Z" transform="translate(-204.223 -147.09)"/>
+      <path id="Path_5565" data-name="Path 5565" d="M248.767,116.1a1.867,1.867,0,1,0,1.867,1.867h0A1.891,1.891,0,0,0,248.767,116.1Z" transform="translate(-204.301 -104.691)"/>
+      <path id="Path_5566" data-name="Path 5566" d="M248.767,227.7a1.867,1.867,0,1,0,1.867,1.867A1.876,1.876,0,0,0,248.767,227.7Z" transform="translate(-204.301 -190.878)"/>
+      <path id="Path_5567" data-name="Path 5567" d="M193.867,171a1.867,1.867,0,1,0,1.867,1.867h0A1.861,1.861,0,0,0,193.867,171Z" transform="translate(-161.279 -147.09)"/>
+      <path id="Path_5568" data-name="Path 5568" d="M193.867,119.835A1.867,1.867,0,1,0,192,117.967h0A1.876,1.876,0,0,0,193.867,119.835Z" transform="translate(-161.279 -104.691)"/>
+      <path id="Path_5569" data-name="Path 5569" d="M193.867,227.7a1.867,1.867,0,1,0,1.867,1.867h0A1.876,1.876,0,0,0,193.867,227.7Z" transform="translate(-161.279 -190.878)"/>
+      <path id="Path_5570" data-name="Path 5570" d="M134.2,64H55.116A5.251,5.251,0,0,0,50,69.283v48.636h89.321V69.283A5.251,5.251,0,0,0,134.2,64Z" transform="translate(-50 -66)" fill="url(#linear-gradient-2)"/>
+      <path id="Icon_awesome-rupee-sign" data-name="Icon awesome-rupee-sign" d="M17.717,6.147a.711.711,0,0,0,.69-.731V2.981a.711.711,0,0,0-.69-.731H.69A.711.711,0,0,0,0,2.981V5.706a.711.711,0,0,0,.69.731H5.6A4.061,4.061,0,0,1,9.1,8.1H.69A.711.711,0,0,0,0,8.827v2.436a.711.711,0,0,0,.69.731H9.822a4.034,4.034,0,0,1-4.3,3.57H.69a.711.711,0,0,0-.69.731v3.228a.751.751,0,0,0,.222.537l9.494,9.278a.67.67,0,0,0,.468.194h4.749a.737.737,0,0,0,.468-1.268L6.723,19.782c4.4-.142,7.544-3.251,7.956-7.789h3.038a.711.711,0,0,0,.69-.731V8.827a.711.711,0,0,0-.69-.731H14.341a8.592,8.592,0,0,0-.82-1.949Z" transform="translate(35.468 10.069)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
