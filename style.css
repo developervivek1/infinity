@@ -679,6 +679,13 @@ footer .list-group1 {
    .icon-card2{
       width: 235px;
    }
+
+   .bg1{
+      background-position-x: 0px !important;
+   }
+
+   
+
   
 }
 
