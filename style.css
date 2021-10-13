@@ -684,6 +684,13 @@ footer .list-group1 {
       background-position-x: 0px !important;
    }
 
+   .bg2{
+      background-size: contain !important;
+    background-position-y: 0px !important;
+  
+    background-position-x: 1px !important;
+   }
+
    
 
   
