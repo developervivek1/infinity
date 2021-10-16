@@ -931,8 +931,8 @@ footer .list-group1{
    }
    .section1 .content-div .rectangle-div {
       top: 274px;
-      left: 50%;
-      transform: translate(-50%, 4%);
+      left: 50% !important;
+      transform: translate(-50%, 4%) !important;
    }
 
 }
