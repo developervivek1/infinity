@@ -929,7 +929,11 @@ footer .list-group1{
    .card-items {
       top: -240px;
    }
-  
+   .section1 .content-div .rectangle-div {
+      top: 274px;
+      left: 50%;
+      transform: translate(-50%, 4%);
+   }
 
 }
 /*  */
