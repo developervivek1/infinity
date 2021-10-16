@@ -925,6 +925,10 @@ footer .list-group1{
    .card, .card.active{
        width: 100%;
    }
+
+   .card-items {
+      top: -240px;
+   }
   
 
 }
