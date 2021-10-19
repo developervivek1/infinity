@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.407" height="88.482" viewBox="0 0 117.407 88.482">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5f92ce"/>
+      <stop offset="1" stop-color="#83b0e4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7107" data-name="Group 7107" transform="translate(-1458.427 -7998.916)">
+    <g id="noun_Arrow_89829_1_" data-name="noun_Arrow_89829 (1)" transform="translate(1519.909 7996.916)">
+      <g id="Group_7049" data-name="Group 7049" transform="translate(1.38 2)">
+        <path id="Path_5582" data-name="Path 5582" d="M28.428,67.93c-.731,0-1.428-.969-1.428-.969L2.4,38.7s-1.312-1.081-.955-2.117,2.414-.737,2.414-.737H19.17V2H38.508V35.842H54.194s1.343-.163,1.671.8-.792,1.684-.792,1.684L29.925,66.961S29.159,67.93,28.428,67.93Z" transform="translate(-1.38 -2)" fill="#b8d1ef"/>
+      </g>
+    </g>
+    <g id="Group_7057" data-name="Group 7057" transform="translate(1125.427 222.619)">
+      <g id="Group_7050" data-name="Group 7050" transform="translate(333 7796)">
+        <path id="Path_5583" data-name="Path 5583" d="M59.285,4H13.861C7.32,4,2,9.785,2,16.9V59.883c0,7.111,5.32,12.9,11.861,12.9H59.285c6.54,0,11.861-5.785,11.861-12.9V16.9C71.146,9.785,65.825,4,59.285,4Z" transform="translate(-2 -4)" fill="url(#linear-gradient)"/>
+        <path id="Icon_awesome-rupee-sign" data-name="Icon awesome-rupee-sign" d="M21.69,7.021a.871.871,0,0,0,.845-.895V3.145a.871.871,0,0,0-.845-.895H.845A.871.871,0,0,0,0,3.145V6.481a.871.871,0,0,0,.845.895H6.851a4.972,4.972,0,0,1,4.294,2.032H.845A.871.871,0,0,0,0,10.3v2.982a.871.871,0,0,0,.845.895h11.18a4.939,4.939,0,0,1-5.265,4.371H.845A.871.871,0,0,0,0,19.444V23.4a.92.92,0,0,0,.272.657L11.9,35.412a.82.82,0,0,0,.573.237h5.814a.9.9,0,0,0,.573-1.552L8.23,23.714c5.387-.174,9.236-3.981,9.741-9.535H21.69a.871.871,0,0,0,.845-.895V10.3a.871.871,0,0,0-.845-.895H17.557a10.518,10.518,0,0,0-1-2.386Z" transform="translate(23.305 15.44)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
