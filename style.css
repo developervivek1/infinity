@@ -4,16 +4,16 @@
 
 :root
 {
-	--mont: 'Montserrat', sans-serif;
-	--work: 'Work Sans', sans-serif;
+   --mont: 'Montserrat', sans-serif;
+   --work: 'Work Sans', sans-serif;
 }
 body
 {
-	font-family: var(--mont);
-	font-size: 14px;
+   font-family: var(--mont);
+   font-size: 14px;
    margin: 0;
    box-sizing: border-box;
-	color: #3D3D3F;
+   color: #3D3D3F;
    height: 100vh;
     
     flex-direction: column;
@@ -28,26 +28,36 @@ body
 .head-title h1{
    font-family: var(--mont);
    font-weight: 800;
+   font-size: 45px;
+   margin-bottom: 25px;
 }
 
 
-
+.border {
+    border: 2px solid #dfe2e4!important;
+}
 p
 {
-	font-family: var(--work);
-	letter-spacing: 0.02px;
-	word-spacing: 0.05px;
-	font-weight: 400;
-	color: #767676;
-	line-height: 1.4rem;
-	font-size: 14px;
+   font-family: var(--work);
+   letter-spacing: 0.02px;
+   word-spacing: 0.05px;
+   font-weight: 400;
+   color: #767676;
+   line-height: 1.4rem;
+   font-size: 14px;
 }
-header .nav li button
+header
 {
-	outline: none;
+   margin-bottom: 25px;
+   position: relative;
+   z-index: 44;
+}
+header nav span button
+{
+   outline: none;
     color: #fff;
     cursor: pointer;
-    padding: 11px 23px 11px 23px;
+    padding: 11px 23px 10px 23px;
     letter-spacing: 1.5px;
     font-size: 14px;
     font-weight: 600;
@@ -60,10 +70,17 @@ header .nav li button
     box-shadow: 0px 8px 24px #00000015;
     margin-right: 15px;
 }
-header .nav li:first-child button
+header nav span button.btn1
 {
-	background: #fff;
-	color: #3D3D3F;
+   background: #fff;
+   color: #3D3D3F;
+   font-weight: 400;
+   font-size: 14px;
+}
+header nav span button:hover
+{
+   background: #58C4BA;
+   color: #fff;
 }
 .main
 {
@@ -231,13 +248,33 @@ border-radius: 15px 0px;
 	/* margin-top: 2rem; */
 	min-height: 90vh;
 }
-.section1 h1
+.section1 h1,h1.borrow,.how_works .text-center h1,.how_works2 .text-center h1
 {
-	font-weight: 800;
-	font-size: 45px;
-	text-transform: capitalize;
-	position: relative;
-	margin-bottom: 15px;
+   font-weight: 800;
+   font-size: 44px;
+   /* text-transform: capitalize; */
+   position: relative;
+   margin-bottom: 11px;
+}
+.text-center p.borrowp,
+.how_works .text-center p,
+.how_works2 .text-center p
+{
+   color: #3D3D3F;
+   font-family: var(--mont);
+   font-size: 15px;
+   margin-top: 15px;
+   text-transform: uppercase;
+   letter-spacing: 1.8px;
+   word-spacing: 0.5px;
+}
+.how_works .text-center h5,
+.how_works h5.how_main,
+.how_works2 h5.how_main
+{
+   font-weight: 600;
+   font-size: 23px;
+   font-family: var(--mont);
 }
 .section1 h1::after
 {
@@ -518,11 +555,11 @@ border-radius: 15px 0px;
 
 .icon-card2 {
    width: 235px;
-   
    height: 200px;
    position: relative;
    border-radius: 11px;
    opacity: 1;
+   border: 2px solid #DFE2E4;
 }
 
 .icon-card2 h5{
@@ -549,8 +586,8 @@ border-radius: 15px 0px;
   /* background-color: red; */
   position: relative;
   animation-name: example;
-  animation-duration: 4s;
-  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -562,22 +599,21 @@ border-radius: 15px 0px;
    }
    50%  
    { 
-      left:30%; top:0px; animation-delay: 2s;
+      left:30%; top:0px; animation-delay: 4s;
    }
    75%  
    {
-      left:55%; top:0px;
+      left:55%; top:0px; animation-delay: 6s;
    }
    100%  
    { 
-      left:80%; top:0px;animation-delay: 4s;
+      left:80%; top:0px;animation-delay: 8s;
    }
    100% 
    { 
       right:80%; top:0px;background: url();
    }
 }
-
 
 
 .lender-card2 {
@@ -813,17 +849,31 @@ footer .list-group1 {
    box-shadow: 0px 16px 32px #00000019;
    height: 240px;
    position: relative;
-   border-radius: 11px;
+   border-radius: 20px;
    opacity: 1;
 }
 
-.icon-card2{
-   width: 235px;
-   box-shadow: 0px 16px 32px #00000019;
-   height: 200px;
-   position: relative;
-   border-radius: 11px;
-   opacity: 1;
+.how_works .icon-card2 {
+    width: 235px;
+    height: 185px;
+    border: 2px solid #DFE2E4;
+    position: relative;
+    border-radius: 20px;
+    opacity: 1;
+}
+.how_works .icon-card2 
+{
+   height: 210px;
+}
+.bg-white .middle1:last-child .icon-card2 {
+    width: 235px;
+    height: 185px;
+    box-shadow: 0px 8px 24px #00000015;
+    border: 1px solid #DFE2E4;
+    position: relative;
+    border-radius: 20px;
+    opacity: 1;
+
 }
 
 .how-card2{
@@ -836,11 +886,16 @@ footer .list-group1 {
 }
 .lender-card2{
    width: 200px;
-   box-shadow: 0px 16px 32px #00000019;
+   /* box-shadow: 0px 16px 32px #00000019; */
    height: 240px;
    position: relative;
-   border-radius: 11px;
+   border-radius: 20px;
    opacity: 1;
+}
+.how_works .middle1 .lender-card2.active,
+.how_works2 .middl .lender-card2.active
+{
+   box-shadow: 0px 16px 32px #00000019;
 }
 .anchor-card2{
    width: 350px;
@@ -851,14 +906,54 @@ footer .list-group1 {
    opacity: 1;
 }
 
-.text1{
- margin: 0;
- position: absolute;
- top: 50%;
- -ms-transform: translateY(-50%);
- transform: translateY(-50%);
+.text1 
+{
+   margin: 0;
+   position: absolute;
+   top: 58%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
 }
-
+.how_works2 .mytext
+{
+   margin-top: 2rem;
+   width: 100%;
+   line-height: 1.8rem;
+}
+.benefit-div .text1
+{
+   margin-left: 3px;
+}
+.benefit-div .text1 h5,
+.animate_div2 .text1 h5,
+.how_works .text1 h5,
+.how_works2 .mytext h5,
+.bg3 .contact-card>h5
+{
+   font-family: var(--mont);
+   font-weight: 600;
+   color: #133058;
+   font-size: 18px;
+   width: 90%;
+}
+.bg3 .contact-card>h5
+{
+   font-size: 21px;
+}
+.contact-card form label
+{
+   font-weight: 400;
+   font-family: var(--mont);
+   margin-bottom: 7px;
+   font-size: 15px;
+}
+.benefit-div .text1 p,
+.animate_div2 .text1 p,
+.how_works .text1 p
+{
+   margin-top: 8px;
+   width: 85%;
+}
 .bg-img{
    position: relative;
 }
@@ -935,28 +1030,441 @@ footer .list-group1{
       transform: translate(-50%, 4%) !important;
    }
 
+
 }
 /*  */
 
 /* /here */
 
+/* privacy css goes here */
+
+.banner-policy
+{
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.banner-policy .overlay-big
+{
+   position: absolute;
+   top: -180px;
+   z-index: 0;
+   right: 0;
+   width: 100%;
+   height: 117%;
+   background: url(img/privacyback2.svg);
+    background-size: cover;
+    background-position: 215px center;
+    background-repeat: no-repeat;
+}
+
+.banner-policy .div-right
+{
+   position: relative;
+}
+.banner-policy .div-right .overlay {
+    position: absolute;
+    top: -95px;
+    right: -7.8%;
+    width: 101.5%;
+    height: 125%;
+    z-index: 1;
+    background: url(img/Path_5277.svg);
+    background-size: cover;
+    background-position: 78px center;
+    background-repeat: no-repeat;
+}
+.banner-policy .div-right img
+{
+   position: relative;
+   z-index: 2;
+   margin: 42px 0 0 63px;
+}
+.banner-policy .div-left
+{
+   position: relative;
+   z-index: 4;
+}
+.banner-policy .div-left h1
+{
+   font-weight: 800;
+   font-size: 45px;
+   color: #3D3D3F;
+   letter-spacing: 0.1px;
+   text-transform: capitalize;
+   margin-top: 0.5rem;
+}
+.privacy-content
+{
+   padding-bottom: 60px;
+}
+.privacy-content .div-privacy
+{
+   margin-bottom: 0px;
+   padding: 15px;
+   border: none;
+   border-radius: 3px;
+   background: #fff;
+   overflow: visible;
+}
+.privacy-content .div-privacy .head-div,
+.terms-content .head-div
+{
+   width: 100%;
+   margin-bottom: 0px;
+   background: #fff;
+   cursor: pointer;
+   height: 65px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   position: relative;
+   /* box-shadow: 0 0 5px rgba(0, 0, 0,0.2); */
+}
+.privacy-content .head-div img
+{
+   width: 30px;
+   height: auto;
+   position: absolute;
+   top: 10px;
+   right: 3.6%;
+}
+
+.privacy-content .div-privacy h2
+{
+    font-weight: 600;
+    color: #3D3D3F;
+    width: 75%;
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: 35px;
+    font-size: 25px;
+    word-spacing: 0.5px;
+    font-family: var(--mont);
+}
+.privacy-content .show-content,
+.terms-content .content
+{
+   height: 0;
+    overflow: hidden;
+    transition: height .25s ease-out;
+}
+.privacy-content .show-content.open,
+.terms-content .content.open
+{
+ height: auto;
+}
+.privacy-content .show-content p,.terms-content .content p
+{
+   color: #767676;
+   letter-spacing: 0.03px;
+   font-family: var(--work);
+   width: 80%;
+   font-size: 15px;
+}
+.privacy-content .show-content ul,.terms-content .content ul
+{
+    padding-left: 1.3rem;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.privacy-content .show-content ul li,.terms-content .content ul li{
+    font-family: var(--work);
+    line-height: 1.7rem;
+    position: relative;
+    color: #767676;
+    font-size: 15px;
+}
+.privacy-content .show-content ul li::before,.terms-content .content ul li::before{
+    position: absolute;
+    top: 10px;
+    left: -1.6%;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #9DC3F0;
+    border-radius: 30px;
+}
+.privacy-content .div-privacy
+{
+   position: relative;
+}
+.privacy-content .div-privacy:nth-child(5) .head-div,
+.privacy-content .div-privacy:nth-child(6) .head-div,
+.privacy-content .div-privacy:nth-child(7) .head-div,
+.privacy-content .div-privacy:nth-child(12) .head-div,
+.privacy-content .div-privacy:nth-child(13) .head-div
+{
+   height: 81px;
+}
+.privacy-content .div-privacy:nth-child(5) .head-div img,
+.privacy-content .div-privacy:nth-child(6) .head-div img,
+.privacy-content .div-privacy:nth-child(7) .head-div img,
+.privacy-content .div-privacy:nth-child(12) .head-div img,
+.privacy-content .div-privacy:nth-child(13) .head-div img
+{
+   top: 0px;
+}
+
+.privacy-content .div-privacy:nth-child(1) .head-div h2::after
+{
+   left: 35.5%;
+   max-width: 60%;
+}
+.privacy-content .div-privacy:nth-child(2) .head-div h2::after
+{
+   left: 20%;
+   max-width: 76%;
+}
+.privacy-content .div-privacy:nth-child(3) .head-div h2::after
+{
+   left: 50.2%;
+   max-width: 46%;
+}
+.privacy-content .div-privacy:nth-child(4) .head-div h2::after
+{
+   left: 53.7%;
+   max-width: 42%;
+}
+.privacy-content .div-privacy:nth-child(5) .head-div h2::after
+{
+   left: 79.1%;
+    max-width: 17%;
+    top: 14px;
+}
+.privacy-content .div-privacy:nth-child(6) .head-div h2::after {
+    left: 77%;
+    max-width: 19%;
+    top: 14px;
+}
+.privacy-content .div-privacy:nth-child(7) .head-div h2::after {
+    left: 78.8%;
+    max-width: 17%;
+    top: 14px;
+}
+.privacy-content .div-privacy:nth-child(8) .head-div h2::after {
+    left: 55.3%;
+    max-width: 41%;
+}
+.privacy-content .div-privacy:nth-child(9) .head-div h2::after {
+    left: 33.3%;
+    max-width: 63%;
+}
+.privacy-content .div-privacy:nth-child(10) .head-div h2::after {
+    left: 76%;
+    max-width: 20%;
+}
+.privacy-content .div-privacy:nth-child(11) .head-div h2::after {
+    left: 38.7%;
+    max-width: 57%;
+}
+.privacy-content .div-privacy:nth-child(12) .head-div h2::after {
+    left: 73.6%;
+    max-width: 22%;
+    top: 14px;
+}
+.privacy-content .div-privacy:nth-child(13) .head-div h2::after {
+    left: 76.9%;
+    max-width: 19%;
+    top: 14px;
+}
+
+.terms-content
+{
+   padding-bottom:4rem;
+}
+.terms-content .content ul li,.terms-content .content p
+{
+   font-size: 14px;
+}
+.terms-content .head-div
+{
+   height: 75px;
+}
+.terms-content p.terms_condition
+{
+   color: #767676;
+   width: 95%;
+   word-spacing: 0.7px;
+   font-family: var(--work);
+   font-size: 15px;
+   letter-spacing: 0.1px;
+   line-height: 1.5rem;
+}
+.terms-content .head-div h1
+{
+   font-weight: 800;
+    color: #3D3D3F;
+    width: 91%;
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: 35px;
+    font-size: 28px;
+    margin: 1.7rem 0 1.7rem;
+    word-spacing: 0.5px;
+    font-family: var(--mont);
+    text-transform: capitalize;
+}
+.terms-content .content 
+{
+   position: relative;
+   width: 100%;
+}
+.terms-content .head-div img
+{
+   position: absolute;
+   top: 19px;
+   right: 3.6%;
+   width: 33px;
+   height: auto;
+}
+.terms-content .content p
+{
+   width: 94%;
+}
+.terms-content .content ul li
+{
+   width: 94%;
+}
+.terms-content .head-div h1::after,
+.privacy-content .div-privacy h2::after
+{
+   position: absolute;
+   right: 0;
+   content: '';
+   width: 95%;
+   height: 1px;
+   background: #cfcfcf;
+   overflow: hidden;
+}
+.terms-content .head-div h1::after
+{
+   top: 50%;
+}
+.privacy-content .div-privacy h2::after
+{
+   top: 38%;
+}
+.terms-content .div-privacy:nth-child(2) .head-div h1::after
+{
+   left: 18%;
+   max-width: 76%;
+}
+.terms-content .div-privacy:nth-child(3) .head-div h1::after
+{
+   left: 14.5%;
+   max-width: 80.5%;
+}
+.terms-content .div-privacy:nth-child(4) .head-div h1::after
+{
+   left: 13.6%;
+   max-width: 81.5%;
+}
+.terms-content .div-privacy:nth-child(5) .head-div h1::after
+{
+   left: 19.9%;
+   max-width: 75%;
+}
+.terms-content .div-privacy:nth-child(6) .head-div h1::after
+{
+   left: 26.5%;
+    max-width: 69%;
+}
+.terms-content .div-privacy:nth-child(7) .head-div h1::after {
+    left: 47.5%;
+    max-width: 48.6%;
+}
+.terms-content .div-privacy:nth-child(8) .head-div h1::after {
+    left: 35.8%;
+    max-width: 58%;
+}
+.terms-content .div-privacy:nth-child(9) .head-div h1::after {
+    left: 28%;
+    max-width: 66%;
+}
+.terms-content .div-privacy:nth-child(10) .head-div h1::after {
+    left: 20%;
+    max-width: 74%;
+}
+.terms-content .div-privacy:nth-child(11) .head-div h1::after {
+    left: 35.8%;
+    max-width: 59%;
+}
+.terms-content .div-privacy:nth-child(12) .head-div h1::after {
+    left: 17%;
+    max-width: 77%;
+}
+.terms-content .div-privacy:nth-child(13) .head-div h1::after {
+    left: 33%;
+    max-width: 62%;
+}
+.terms-content .div-privacy:nth-child(14) .head-div h1::after {
+    left: 21.8%;
+    max-width: 73%;
+}
+.terms-content .div-privacy:nth-child(15) .head-div h1::after {
+    left: 21.8%;
+    max-width: 73%;
+}
+.terms-content .div-privacy:nth-child(16) .head-div h1::after {
+    left: 14.8%;
+    max-width: 81%;
+}
+.terms-content .div-privacy:nth-child(17) .head-div h1::after {
+    left: 42.2%;
+    max-width: 52.5%;
+}
+.terms-content .div-privacy:nth-child(18) .head-div h1::after {
+    left: 21.7%;
+    max-width: 72%;
+}
+.terms-content .div-privacy:nth-child(19) .head-div h1::after {
+    left: 16.7%;
+    max-width: 77.5%;
+}
+/* .terms-content .div-privacy:nth-child(20) .head-div h1::after {
+    left: 173px;
+    max-width: 90.5%;
+}
+ */
+ .form-control 
+ {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: .375rem .75rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 15px;
+    color: #767676;
+    border: 1px solid #DFE2E4;
+}
+
 
 
 @media(max-width: 800px) {
-	header a img
-	{
+   header {
+      padding: 12px 0;
+    margin-bottom: 0px;
+   }
+   header a img
+   {
      width: 82px;
-	}
-	header .nav li:first-child button
-	{
-		margin-left: 0px;
-		margin-right: 15px;
-	}
-	header .nav li button {
-	    padding: 11px 20px 11px 18px;
-	    font-size: 12px;
-	    margin-left: 16px;
-	    margin-top: 0rem;
+   }
+   header nav span button.btn1
+   {
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 11px;
+   }
+   header nav span button {
+         padding: 10px 11px 10px 11px;
+          font-size: 11px;
+          margin: 0 0 0 16px;
+          border-radius: 10px;
     }
     .main .slide .slider {
     display: block;
@@ -977,7 +1485,7 @@ footer .list-group1{
    }
    .main .slide .img-right img
    {
-   	margin-top: -68px;
+      margin-top: -68px;
    }
    .main .lend-div {
     margin-top: -150px;
@@ -986,9 +1494,9 @@ footer .list-group1{
     width: 40px;
     height: 38px;
    }
-   /* .section1 {
+   .section1 {
     margin-top: 1rem;
-   } */
+   }
    .section1 h1 {
     font-weight: 600;
     font-size: 32px;
@@ -1016,7 +1524,7 @@ footer .list-group1{
    }
    .section1 .row-cols-1.mt-5 
    {
-   	margin-left: 0px;
+      margin-left: 0px;
    }
    .section1 .content-div .imgdiv1, .section1 .content-div .imgdiv2, 
    .section1 .content-div .imgdiv3, .section1 .content-div .imgdiv4, .section1 .content-div .imgdiv5 {
@@ -1068,4 +1576,346 @@ footer .list-group1{
     justify-content: center;
     text-align: center;
    }
+   #hero.pt-5
+   {
+      padding-top: 0rem !important;
+   }
+   #hero.pt-5 .pb-5
+   {
+      padding-bottom: 0rem !important;
+   }
+   #hero.mt-4
+   {
+      margin-top: 0rem !important;
+   }
+   .carousel-inner {
+    max-height: 365px;
+   }
+   .carousel-inner .carousel-item .head-title h4 {
+    font-size: 18px;
+   }
+   header nav img
+   {
+      width: 110px;
+   }
+   .carousel-inner .head-title h1 {
+    width: 50%;
+    font-size: 28px;
+   }
+   .mycard.pb-5
+   {
+      padding-bottom: 1rem !important;
+   }
+   .privacy-content .div-privacy h2 {
+    font-weight: 600;
+    width: 88%;
+    line-height: 24px;
+    font-size: 16px;
+   }
+   .privacy-content .head-div img {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    top: -2px;
+    right: 0%;
+   }
+   .privacy-content .show-content p {
+
+    width: 91%;
+    font-size: 14px;
+   }
+   .banner-policy {
+    height: 320px;
+   }
+   .banner-policy .div-left h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0rem;
+   }
+   .privacy-content .show-content ul li::before, .terms-content .content ul li::before {
+    left: -5.4%;
+   }
+   .terms-content .div-privacy:nth-child(2) .head-div h1::after
+   {
+      left: 38%;
+      max-width: 60%;
+   }
+   .terms-content .div-privacy:nth-child(3) .head-div h1::after
+   {
+      left: 31%;
+      max-width: 65%;
+   }
+   .terms-content .div-privacy:nth-child(4) .head-div h1::after
+   {
+      left: 29%;
+      max-width: 65%;
+   }
+   .terms-content .div-privacy:nth-child(5) .head-div h1::after
+   {
+      left: 40.5%;
+      max-width: 56%;
+   }
+   .terms-content .div-privacy:nth-child(6) .head-div h1::after
+   {
+      left: 55%;
+       max-width: 43%;
+   }
+   .terms-content .div-privacy:nth-child(7) .head-div h1::after {
+       left: 92%;
+       max-width: 6%;
+   }
+   .terms-content .div-privacy:nth-child(8) .head-div h1::after {
+       left: 74%;
+       max-width: 22%;
+   }
+   .terms-content .div-privacy:nth-child(9) .head-div h1::after {
+       left: 55%;
+       max-width: 40%;
+   }
+   .terms-content .div-privacy:nth-child(10) .head-div h1::after {
+       left: 41%;
+       max-width: 52%;
+   }
+   .terms-content .div-privacy:nth-child(11) .head-div h1::after {
+       left: 74%;
+       max-width: 20%;
+   }
+   .terms-content .div-privacy:nth-child(12) .head-div h1::after {
+       left: 36%;
+       max-width: 60%;
+   }
+   .terms-content .div-privacy:nth-child(13) .head-div h1::after {
+       left: 67%;
+       max-width: 31%;
+   }
+   .terms-content .div-privacy:nth-child(14) .head-div h1::after {
+       left: 46%;
+       max-width: 52%;
+   }
+   .terms-content .div-privacy:nth-child(15) .head-div h1::after {
+       left: 45%;
+       max-width: 50%;
+   }
+   .terms-content .div-privacy:nth-child(16) .head-div h1::after {
+       left: 30%;
+       max-width: 68%;
+   }
+   .terms-content .div-privacy:nth-child(17) .head-div h1::after {
+       left: 89%;
+       max-width: 5.5%;
+   }
+   .terms-content .div-privacy:nth-child(18) .head-div h1::after {
+       left: 46.5%;
+       max-width: 47.5%;
+   }
+   .terms-content .div-privacy:nth-child(19) .head-div h1::after {
+       left: 36%;
+       max-width: 59.5%;
+   }
+   .terms-content .div-privacy:nth-child(20) .head-div h1::after {
+       left: 173px;
+       max-width: 90.5%;
+   }
+   .terms-content .div-privacy .head-div img {
+    position: absolute;
+    top: 18px;
+    right: 1%;
+    width: 22px;
+    height: auto;
+   }
+   .terms-content .div-privacy .head-div h1 {
+    font-weight: 600;
+    font-size: 16px;
+   }
+   .terms-content .head-div {
+    height: 60px;
+   }
+   .banner-policy .overlay-big {
+    top: -88px;
+    background-position: 11px center;
+    height: 135%;
+   }
+   .banner-policy .div-right .overlay {
+    top: 11px;
+    height: 90%;
+    right: 0%;
+    width: 103%;
+   }
+   .banner-policy .div-right img {
+    margin: 42px 0 0 11px;
+   }
+   .privacy-content .div-privacy:nth-child(1) .head-div h2::after
+   {
+      left: 87%;
+      max-width: 10%;
+      top: 9px;
+   }
+   .privacy-content .div-privacy:nth-child(2) .head-div h2::after
+   {
+      left: 49%;
+      top: 9px;
+      max-width: 50%;
+   }
+   .privacy-content .div-privacy:nth-child(3) .head-div h2::after
+   {
+      left: 91.2%;
+      max-width: 4%;
+      top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(4) .head-div h2::after
+   {
+      left: 71%;
+      max-width: 25%;
+      top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(5) .head-div h2::after
+   {
+      left: 91%;
+       max-width: 6%;
+       top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(6) .head-div h2::after {
+       left: 86%;
+       max-width: 10%;
+       top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(7) .head-div h2::after {
+       left: 89.5%;
+       max-width: 10%;
+       top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(8) .head-div h2::after {
+       left: 89%;
+       max-width: 6%;
+       top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(9) .head-div h2::after {
+       left: 81.8%;
+       max-width: 15%;
+       top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(10) .head-div h2::after {
+       left: 83%;
+       max-width: 13%;
+      top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(11) .head-div h2::after {
+       left: 91.7%;
+       max-width: 4%;
+      top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(12) .head-div h2::after {
+       left: 91.6%;
+       max-width: 4%;
+      top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(13) .head-div h2::after {
+       left: 89.9%;
+       max-width: 10%;
+      top: 11px;
+   }
+   .privacy-content .div-privacy:nth-child(3) .head-div img,
+   .privacy-content .div-privacy:nth-child(4) .head-div img,
+   .privacy-content .div-privacy:nth-child(5) .head-div img, 
+   .privacy-content .div-privacy:nth-child(6) .head-div img,
+   .privacy-content .div-privacy:nth-child(9) .head-div img, 
+   .privacy-content .div-privacy:nth-child(10) .head-div img, 
+   .privacy-content .div-privacy:nth-child(11) .head-div img, 
+   .privacy-content .div-privacy:nth-child(12) .head-div img, 
+   .privacy-content .div-privacy:nth-child(13) .head-div img {
+    top: 0px;
+   }
+   .privacy-content .div-privacy:nth-child(7) .head-div img,
+   .privacy-content .div-privacy:nth-child(8) .head-div img
+   {
+      top: 1px;
+   }
+   .privacy-content .div-privacy .head-div{
+    height: 37px;
+   }
+   
+   .privacy-content .div-privacy.mb-3
+   {
+      margin-bottom: 0rem !important;
+   }
+   .privacy-content .div-privacy.mt-3
+   {
+      margin-top: 1rem !important;
+   }
+   .privacy-content .div-privacy.pt-3
+   {
+      padding-top: 1rem !important;
+   }
+   .privacy-content .div-privacy.mt-1
+   {
+      margin-top: 0.5rem !important;
+   }
+   .privacy-content .div-privacy.mt-2
+   {
+      margin-top: 1rem !important;
+   }
+   .privacy-content .div-privacy.mt-4
+   {
+      margin-top: 1.5rem !important;
+   }
+   .privacy-content .div-privacy.pt-4
+   {
+      padding-top: 1.5rem !important;
+   }  
+   .privacy-content .div-privacy.mobilemt-1
+   {
+      margin-top: 1rem;
+   }
+   .privacy-content {
+    padding-bottom: 2rem;
+   }
+   .terms-content {
+    padding-bottom: 2rem;
+   }
+   .privacy-content .div-privacy {
+    overflow: visible;
+   }
+   .privacy-content .show-content p.mobilemt-1
+   {
+      margin-top: 0.5rem;
+   }
+   .privacy-content .show-content p.mobilemt-11
+   {
+      margin-top: 0.9rem;
+   }
+   .privacy-content .show-content p.mobilemt-2
+   {
+      margin-top: 1rem;
+   }
+   .privacy-content .show-content p.mobilemt-3
+   {
+      margin-top: 1.5rem;
+   }
+   .privacy-content .show-content p.mobilemt-33
+   {
+      margin-top: 1.7rem;
+   }
+   .privacy-content .show-content p.mobilemt-4
+   {
+      margin-top: 2rem;
+   }
+   .privacy-content .show-content p.mt-4
+   {
+      margin-top: 0.5rem !important;
+   }
+   .move1{
+     /* background-color: red; */
+     position: relative;
+     animation-name: none;
+     animation-duration: 6s;
+     animation-delay: 1.5s;
+     animation-fill-mode: forwards;
+   }
 }
+
+
+
+
+
+
+
