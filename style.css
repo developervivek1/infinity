@@ -1064,17 +1064,17 @@ footer .list-group1{
 {
    position: relative;
 }
-.banner-policy .div-right .overlay {
-    position: absolute;
-    top: -95px;
-    right: -7.8%;
-    width: 101.5%;
-    height: 125%;
-    z-index: 1;
-    background: url(img/Path_5277.svg);
-    background-size: cover;
-    background-position: 78px center;
-    background-repeat: no-repeat;
+.banner-policy .overlay {
+   position: absolute;
+   top: 47px;
+   right: 0;
+   width: 45%;
+   height: 66%;
+   z-index: 1;
+   background: url(img/Path_5277.svg);
+   background-size: cover;
+   background-position: 50px center;
+   background-repeat: no-repeat;
 }
 .banner-policy .div-right img
 {
